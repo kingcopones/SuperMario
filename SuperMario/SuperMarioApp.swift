@@ -7,11 +7,18 @@
 
 import SwiftUI
 
+@available(iOS 15.0, *)
 @main
 struct SuperMarioApp: App {
+    
+    @StateObject var vm = StartViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+            StartView()
+                    .navigationBarHidden(true)
+            }
+            .environmentObject(vm)
         }
     }
 }

@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		763DE0112723475D006DD5D1 /* ShimmerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763DE0102723475D006DD5D1 /* ShimmerCardView.swift */; };
+		767F4C68272683EC009AF3BF /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F4C67272683EC009AF3BF /* WebView.swift */; };
+		767F4C6A2726A161009AF3BF /* SeriesWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767F4C692726A161009AF3BF /* SeriesWebView.swift */; };
+		76CC4A512721626700D42534 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CC4A502721626700D42534 /* StartViewModel.swift */; };
 		76DAEF04271E625400BF0D31 /* SuperMarioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DAEF03271E625400BF0D31 /* SuperMarioApp.swift */; };
-		76DAEF06271E625400BF0D31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DAEF05271E625400BF0D31 /* ContentView.swift */; };
 		76DAEF08271E625600BF0D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DAEF07271E625600BF0D31 /* Assets.xcassets */; };
 		76DAEF0B271E625600BF0D31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DAEF0A271E625600BF0D31 /* Preview Assets.xcassets */; };
+		76DAEF13271E628400BF0D31 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DAEF12271E628400BF0D31 /* StartView.swift */; };
+		76DAEF15271E694D00BF0D31 /* ViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DAEF14271E694D00BF0D31 /* ViewImage.swift */; };
+		76DAEF19271E6A2B00BF0D31 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DAEF18271E6A2B00BF0D31 /* BackButton.swift */; };
+		76DAEF1B271ECAD400BF0D31 /* NetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DAEF1A271ECAD400BF0D31 /* NetworkAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		763DE0102723475D006DD5D1 /* ShimmerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerCardView.swift; sourceTree = "<group>"; };
+		767F4C67272683EC009AF3BF /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		767F4C692726A161009AF3BF /* SeriesWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesWebView.swift; sourceTree = "<group>"; };
+		76CC4A502721626700D42534 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
 		76DAEF00271E625400BF0D31 /* SuperMario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperMario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DAEF03271E625400BF0D31 /* SuperMarioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperMarioApp.swift; sourceTree = "<group>"; };
-		76DAEF05271E625400BF0D31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76DAEF07271E625600BF0D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76DAEF0A271E625600BF0D31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76DAEF0C271E625600BF0D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DAEF12271E628400BF0D31 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		76DAEF14271E694D00BF0D31 /* ViewImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewImage.swift; sourceTree = "<group>"; };
+		76DAEF18271E6A2B00BF0D31 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		76DAEF1A271ECAD400BF0D31 /* NetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76CC4A4E2721620F00D42534 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				76DAEF1A271ECAD400BF0D31 /* NetworkAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		76CC4A4F2721623800D42534 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				76CC4A502721626700D42534 /* StartViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		76DAEEF7271E625400BF0D31 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				76DAEF03271E625400BF0D31 /* SuperMarioApp.swift */,
-				76DAEF05271E625400BF0D31 /* ContentView.swift */,
+				76DAEF16271E69E900BF0D31 /* Screens */,
+				76DAEF17271E6A0F00BF0D31 /* Wrapper */,
+				76CC4A4E2721620F00D42534 /* Model */,
+				76CC4A4F2721623800D42534 /* View Model */,
 				76DAEF07271E625600BF0D31 /* Assets.xcassets */,
 				76DAEF0C271E625600BF0D31 /* Info.plist */,
 				76DAEF09271E625600BF0D31 /* Preview Content */,
@@ -67,6 +100,26 @@
 				76DAEF0A271E625600BF0D31 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		76DAEF16271E69E900BF0D31 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				76DAEF12271E628400BF0D31 /* StartView.swift */,
+				76DAEF14271E694D00BF0D31 /* ViewImage.swift */,
+				767F4C692726A161009AF3BF /* SeriesWebView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		76DAEF17271E6A0F00BF0D31 /* Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				76DAEF18271E6A2B00BF0D31 /* BackButton.swift */,
+				763DE0102723475D006DD5D1 /* ShimmerCardView.swift */,
+				767F4C67272683EC009AF3BF /* WebView.swift */,
+			);
+			path = Wrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76DAEF06271E625400BF0D31 /* ContentView.swift in Sources */,
+				76CC4A512721626700D42534 /* StartViewModel.swift in Sources */,
+				767F4C68272683EC009AF3BF /* WebView.swift in Sources */,
+				76DAEF15271E694D00BF0D31 /* ViewImage.swift in Sources */,
+				76DAEF13271E628400BF0D31 /* StartView.swift in Sources */,
 				76DAEF04271E625400BF0D31 /* SuperMarioApp.swift in Sources */,
+				763DE0112723475D006DD5D1 /* ShimmerCardView.swift in Sources */,
+				767F4C6A2726A161009AF3BF /* SeriesWebView.swift in Sources */,
+				76DAEF19271E6A2B00BF0D31 /* BackButton.swift in Sources */,
+				76DAEF1B271ECAD400BF0D31 /* NetworkAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +257,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
